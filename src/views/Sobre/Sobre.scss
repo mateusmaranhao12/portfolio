@@ -1,0 +1,18 @@
+@import '@/variaveis/variaveis';
+
+h5 {
+    font-style: normal;
+}
+
+.let {
+    color: rgb(174, 174, 255);
+    font-style: $italic;
+}
+
+.nome_variavel {
+    color: $laranja;
+}
+
+.atributo {
+    color: rgb(255, 255, 164);
+}

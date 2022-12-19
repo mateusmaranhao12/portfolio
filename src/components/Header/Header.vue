@@ -14,10 +14,10 @@
                         <router-link to="Sobre" class="nav-link"><i class="fa-solid fa-question"></i> Sobre</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link to="Servicos" class="nav-link"><i class="fa-solid fa-circle-info"></i> Serviços</router-link>
+                        <router-link to="Conhecimentos" class="nav-link"><i class="fa-solid fa-circle-info"></i> Conhecimentos</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link to="Portfolio" class="nav-link"><i class="fa-solid fa-code"></i> Portfólio</router-link>
+                        <router-link to="Projetos" class="nav-link"><i class="fa-solid fa-code"></i> Projetos</router-link>
                     </li>
                     <li class="nav-item">
                         <router-link to="Contato" class="nav-link"><i class="fa-solid fa-user"></i> Contato</router-link>

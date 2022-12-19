@@ -14,14 +14,31 @@ h5 {
     color: $branco;
     margin-top: $margin;
     margin-bottom: $margin;
-    font-style: italic;
+    font-style: $italic;
 }
 
 .h1 {
-    color: yellow;
+    color: $amarelo;
 }
 
 p {
     margin-left: $margin;
     font-weight: 500;
+}
+
+.function {
+    color: $laranja;
+}
+
+.nome_funcao {
+    color: $amarelo;
+}
+
+.return {
+    color: $laranja;
+    font-style: $italic;
+}
+
+.text_return {
+    color: greenyellow;
 }
