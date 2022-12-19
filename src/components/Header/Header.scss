@@ -1,14 +1,14 @@
 @import '@/variaveis/variaveis';
 
 .navbar-dark {
-    background: rgb(222,222,222);
-    background: linear-gradient(177deg, rgba(222,222,222,1) 0%, $preto 0%, rgba(20,20,20,1) 50%, rgba(57,57,57,1) 100%);
     padding: $padding;
+    border-bottom: 1px solid $branco;
 
     .nav-link{
         color: $branco;
         font-weight: $bold;
         text-transform: $uppercase;
+        margin: 1.4rem;
         display: inline-block;
         position: relative;
     }

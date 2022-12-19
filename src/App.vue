@@ -13,3 +13,9 @@
     }
   }
 </script>
+
+<style lang="scss">
+  body {
+    background: rgb(54, 54, 54);
+  }
+</style>

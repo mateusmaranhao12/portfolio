@@ -1,0 +1,27 @@
+@import '@/variaveis/variaveis';
+
+.imagem {
+    margin-top: $margin;
+    border-radius: 70px;
+}
+
+h1 {
+    color: $branco;
+    margin-top: 100px;
+}
+
+h5 {
+    color: $branco;
+    margin-top: $margin;
+    margin-bottom: $margin;
+    font-style: italic;
+}
+
+.h1 {
+    color: yellow;
+}
+
+p {
+    margin-left: $margin;
+    font-weight: 500;
+}
