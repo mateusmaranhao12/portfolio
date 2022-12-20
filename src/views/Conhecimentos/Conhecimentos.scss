@@ -1,5 +1,22 @@
 @import '@/variaveis/variaveis';
 
 .conhecimento {
-    text-align: center;
+    text-align: $center;
+
+    .h3 {
+        color: $amarelo;
+    }
+
+    h3 {
+        margin-top: $margin;
+        color: $branco;
+    }
+}
+
+.conhecimentos {
+    text-align: $center;
+}
+
+.img-conhecimento {
+    height: 35px;
 }

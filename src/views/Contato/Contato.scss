@@ -1,0 +1,35 @@
+@import '@/variaveis/variaveis';
+
+.contatos {
+
+    h1 {
+        text-align: $center;
+        margin-bottom: $margin;
+    }
+
+    button {
+        font-weight: $bold;
+    }
+
+    .btn {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .btn-instagram {
+        background: #f09433; 
+        background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+        background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+        border: none;
+        color: $branco;
+    }
+
+    .btn-instagram:hover {
+        background: #e6683c;
+        background: -moz-linear-gradient(45deg, #682804 0%, #8b4126 25%, #6d1522 50%, #6d173a 75%, #500037 100%); 
+        background: -webkit-linear-gradient(45deg, #682804 0%,#8b4126 25%,#6d1522 50%,#6d173a 75%,#500037 100%); 
+        background: linear-gradient(45deg, #682804 0%,#8b4126 25%,#6d1522 50%,#6d173a 75%,#500037 100%); 
+        transition: 0.3s ease;
+    } 
+}
