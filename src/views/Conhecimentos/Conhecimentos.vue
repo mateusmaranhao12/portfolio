@@ -89,7 +89,7 @@
   <script>
   
   export default {
-    name: 'Sobre',
+    name: 'Conhecimentos',
     components: {
   
     }
