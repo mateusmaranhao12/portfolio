@@ -12,7 +12,16 @@
                 <div class="card-body">
                     <h5 class="card-title">{{ p.titulo }}</h5>
                     <div class="text-center">
-                        <Modals></Modals>
+                        <button v-if="p.id == 1" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#eletronica420">
+                            Visualizar projeto
+                        </button>
+                        <button v-if="p.id == 2" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#maragogi">
+                            Visualizar projeto
+                        </button>
+                        <button v-if="p.id == 3" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#espaco_lirio">
+                            Visualizar projeto
+                        </button>
+                        <modals></modals>
                     </div>
                 </div>
             </div>
