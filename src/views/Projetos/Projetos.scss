@@ -22,3 +22,8 @@
         text-align: $center;
     }
 }
+
+.card:hover {
+    transform: scale(1.1);
+    transition: .2s ease;
+}

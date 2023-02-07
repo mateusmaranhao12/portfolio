@@ -1,4 +1,5 @@
 <template>
+  <router-view></router-view>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -12,16 +13,15 @@
                 <div class="card-body">
                     <h5 class="card-title">{{ p.titulo }}</h5>
                     <div class="text-center">
-                        <button v-if="p.id == 1" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#eletronica420">
-                            Visualizar projeto
-                        </button>
-                        <button v-if="p.id == 2" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#maragogi">
-                            Visualizar projeto
-                        </button>
-                        <button v-if="p.id == 3" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#espaco_lirio">
-                            Visualizar projeto
-                        </button>
-                        <modals></modals>
+                      <router-link v-if="p.id == 1" class="btn btn-outline-light" to="/projetos/eletronica420">
+                          Visualizar projeto
+                      </router-link>
+                      <router-link v-if="p.id == 2" class="btn btn-outline-light" to="/projetos/maragogi">
+                          Visualizar projeto
+                      </router-link>
+                      <router-link v-if="p.id == 3" class="btn btn-outline-light" to="/projetos/espaco-lirio">
+                          Visualizar projeto
+                      </router-link>
                     </div>
                 </div>
             </div>
@@ -31,15 +31,11 @@
   </template>
   
   <script>
-
-  import Modals from '../../components/Modals/Modals.vue'
   
   export default {
 
     name: 'Sobre',
-    components: {
-        Modals
-    },
+
     data: () => ({
         projetos: [
             {id: 1, titulo: 'Eletrônica 420', imagem: 'eletronica420.png'},
